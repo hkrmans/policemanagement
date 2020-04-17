@@ -5,8 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegisterController">
    <children>
       <Text layoutX="289.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register" />
       <TextField layoutX="42.0" layoutY="109.0" />
@@ -25,5 +24,6 @@
       <Text layoutX="359.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
       <Button layoutX="403.0" layoutY="287.0" mnemonicParsing="false" text="Register" />
       <Button layoutX="508.0" layoutY="348.0" mnemonicParsing="false" text="Exit" />
+      <Button layoutX="449.0" layoutY="348.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back" />
    </children>
 </AnchorPane>
