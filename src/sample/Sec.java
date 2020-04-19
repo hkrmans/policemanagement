@@ -4,7 +4,7 @@ import java.security.*;
 public class Sec{
     private static final SecureRandom rand = new SecureRandom();
 
-    public void checkString(String input){
+    public void checkPassAndUser(String input){
         try{
             if(input.length() < 12 || input.length() > 40){
                 throw new IllegalArgumentException("Error");
