@@ -8,21 +8,19 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegisterController">
    <children>
       <Text layoutX="289.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register" />
-      <TextField layoutX="42.0" layoutY="109.0" />
-      <TextField layoutX="42.0" layoutY="164.0" />
-      <TextField layoutX="42.0" layoutY="229.0" />
+      <TextField fx:id="usernameTextfield" layoutX="42.0" layoutY="109.0" />
+      <TextField fx:id="passwordTextfield" layoutX="42.0" layoutY="164.0" />
+      <TextField fx:id="firstnameTextfield" layoutX="42.0" layoutY="229.0" />
       <Text layoutX="42.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="58.13671875" />
-      <TextField layoutX="42.0" layoutY="287.0" />
-      <TextField layoutX="359.0" layoutY="109.0" promptText="******-****" />
-      <TextField layoutX="359.0" layoutY="164.0" promptText="+46*********" />
-      <TextField layoutX="359.0" layoutY="216.0" />
+      <TextField fx:id="lastnameTextfield" layoutX="42.0" layoutY="287.0" />
+      <TextField fx:id="SSNTextfield" layoutX="359.0" layoutY="109.0" promptText="******-****" />
+      <TextField fx:id="phoneTextfield" layoutX="359.0" layoutY="164.0" promptText="**********" />
       <Text layoutX="42.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
       <Text layoutX="42.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Firstname" />
       <Text layoutX="42.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lastname" />
       <Text layoutX="359.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SSN" />
       <Text layoutX="359.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telephonenumber" />
-      <Text layoutX="359.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
-      <Button layoutX="403.0" layoutY="287.0" mnemonicParsing="false" text="Register" />
+      <Button layoutX="403.0" layoutY="230.0" mnemonicParsing="false" onAction="#registerButtonOnAction" text="Register" />
       <Button layoutX="508.0" layoutY="348.0" mnemonicParsing="false" text="Exit" />
       <Button layoutX="449.0" layoutY="348.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back" />
    </children>
